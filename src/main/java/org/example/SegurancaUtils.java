@@ -3,7 +3,7 @@ package org.example;
 public class SegurancaUtils {
 
     public static boolean validarSenha(String senha){
-        if (senha.length() <= 9){
+        if (senha.length() <= 8){
             return false;
         }
 
